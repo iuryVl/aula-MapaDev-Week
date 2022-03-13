@@ -1,0 +1,103 @@
+.cartao-caminhonete {
+    display: none;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 5px 20px;
+    /*background-color: rgb(143, 118, 108);*/
+    border-radius: 15px;
+    background-image: url(../imagens-caminhonetes/paisagem.png);
+}
+
+.cartao-caminhonete .cartao-topo {
+    padding: 15px 40px 0;
+}
+
+
+.cartao-caminhonete .nome {
+    margin-bottom: 6px;
+}
+
+.cartao-caminhonete .tipo {
+    font-size: 12px;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 1.3px 7px;
+}
+
+.cartao-caminhonete .detalhes {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-caminhonete .cartao-imagem{
+    width: 350px;
+    height: 220px;
+    
+}
+.cartao-caminhonete img {
+    max-height: 100%;
+    max-width: 101%;
+}
+
+.cartao-caminhonete .cartao-informacoes {
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 20px 30px;
+    margin-top: -70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cartao-caminhonete .cartao-informacoes-hilux {
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 50px;
+    margin-top: -90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cartao-caminhonete .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.cartao-caminhonete .cartao-informacoes-hilux h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.cartao-caminhonete .cartao-informacoes-hilux .caracteristicas-hilux, .cartao-caminhonete .cartao-informacoes-hilux .ficha-tecnica-hilux {
+    padding: 0 2px;
+    width: 180px;
+}
+
+.cartao-caminhonete .cartao-informacoes .caracteristicas, .cartao-caminhonete .cartao-informacoes .ficha-tecnica {
+    padding: 0 2px;
+    width: 180px;
+}
+
+.cartao-caminhonete .cartao-informacoes .caracteristicas ul li, .cartao-caminhonete .cartao-informacoes .ficha-tecnica ul li {
+    border-bottom: 1.5px solid #c3c4c5;
+    padding:  0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-caminhonete .cartao-informacoes-hilux .caracteristicas-hilux ul li, .cartao-caminhonete .cartao-informacoes-hilux .ficha-tecnica-hilux ul li {
+    border-bottom: 1.5px solid #c3c4c5;
+    padding:  0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-caminhonete.aberto {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

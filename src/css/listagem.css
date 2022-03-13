@@ -1,0 +1,38 @@
+.listagem {
+    max-width: 200px;
+}
+
+
+.listagem .caminhonete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #8f8f8f;
+    color: #FFFFFF;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    min-height: 55px;
+    min-width: 252px;
+    box-shadow: rgba(151, 160, 168, 0.5) 0px 5px 20px;
+    transition: 0.15s ease-in-out;
+}
+
+.listagem .caminhonete:hover {
+    transform: scale(1.05);
+}
+
+.listagem .caminhonete img {
+    width: 17%;
+    border: 50%;
+}
+
+.listagem .caminhonete span {
+    padding-right: 20px;
+}
+
+.listagem .caminhonete.ativo{
+    background-color: rgb(146, 117, 106);
+}
